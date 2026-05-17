@@ -102,8 +102,8 @@ describe('utils', () => {
 
   describe('formatVote', () => {
     it('should format vote count correctly', () => {
-      expect(formatVote(1234)).toBe('1.2K')
-      expect(formatVote(56789)).toBe('56.8K')
+      expect(formatVote(1234)).toBe('1.2k')
+      expect(formatVote(56789)).toBe('56.8k')
       expect(formatVote(7.3)).toBe('7.3')
       expect(formatVote(0)).toBe('0')
       expect(formatVote(undefined)).toBe('0')
